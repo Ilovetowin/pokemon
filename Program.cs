@@ -1,3 +1,5 @@
+using Pokemon;
+using Pokemon.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

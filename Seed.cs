@@ -1,9 +1,7 @@
 ﻿using Pokemon.Data;
 using Pokemon.Models;
-using PokemonReviewApp.Data;
-using PokemonReviewApp.Models;
 
-namespace PokemonReviewApp
+namespace Pokemon
 {
     public class Seed
     {
@@ -20,7 +18,7 @@ namespace PokemonReviewApp
                 {
                     new PokemonOwner()
                     {
-                        Pokemon = new Pokemon()
+                        Pokemon = new Models.Pokemon()
                         {
                             Name = "Pikachu",
                             BirthDate = new DateTime(1903,1,1),
@@ -51,7 +49,7 @@ namespace PokemonReviewApp
                     },
                     new PokemonOwner()
                     {
-                        Pokemon = new Pokemon()
+                        Pokemon = new Models.Pokemon()
                         {
                             Name = "Squirtle",
                             BirthDate = new DateTime(1903,1,1),
@@ -82,7 +80,7 @@ namespace PokemonReviewApp
                     },
                                     new PokemonOwner()
                     {
-                        Pokemon = new Pokemon()
+                        Pokemon = new Models.Pokemon()
                         {
                             Name = "Venasuar",
                             BirthDate = new DateTime(1903,1,1),
